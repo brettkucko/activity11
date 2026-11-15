@@ -1,4 +1,5 @@
-python-dotenv==1.2.4
 fastapi
 uvicorn[standard]
-pymongo
+pymongo[srv]
+pydantic
+python-dotenv
