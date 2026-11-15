@@ -11,7 +11,7 @@ from pymongo.errors import DuplicateKeyError, PyMongoError
 # --- MongoDB connection (credentials come from .env / Render environment) ---
 load_dotenv()
 client = MongoClient(os.environ["MONGODB_URI"])
-db = client["MobileApo"]
+db = client["MobileApp"]
 collection = db["sculptures"]
 
 # --- FastAPI app setup ---
